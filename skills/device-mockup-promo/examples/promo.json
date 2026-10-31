@@ -1,0 +1,17 @@
+{
+  "device": "phone",
+  "headline": "Video skills in your pocket",
+  "subline": "Browse every Glidezo skill and its real result on your phone.",
+  "screens": [
+    { "image": "shots/phone-home.png", "caption": "Pick a skill" },
+    { "image": "shots/phone-skills.png", "caption": "See what each one makes" },
+    { "image": "shots/phone-logo.png", "caption": "Watch the real result" }
+  ],
+  "cta": "Get the free skills",
+  "url": "glidezo.com",
+  "logo": "logo.svg",
+  "accent": "#8b7bff",
+  "background": "#0a0a0b",
+  "secondsPerScreen": 3.5,
+  "format": "landscape"
+}

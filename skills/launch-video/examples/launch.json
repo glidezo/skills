@@ -1,0 +1,17 @@
+{
+  "product": "Glidezo",
+  "logo": "logo.svg",
+  "hook": "Your coding agent can make videos now.",
+  "tagline": "Video and image skills for Claude Code, Codex and Cursor",
+  "features": [
+    { "title": "Skills, not prompts", "text": "Each skill is a tested recipe your agent runs: titles, captions, listing videos and more.", "image": "shots/02-skills.png" },
+    { "title": "A real result on every page", "text": "See the exact video a skill makes before you download it.", "image": "shots/03-skill.png" },
+    { "title": "Free code skills", "text": "They render on your own computer with HyperFrames. No API key, no cost per video.", "image": "shots/01-home.png" }
+  ],
+  "cta": "Get the free skills",
+  "url": "glidezo.com",
+  "accent": "#8b7bff",
+  "background": "#0a0a0b",
+  "secondsPerFeature": 4.5,
+  "format": "landscape"
+}

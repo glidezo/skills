@@ -1,0 +1,10 @@
+{
+  "kicker": "Free agent skill",
+  "title": "Turn your logo into an intro video",
+  "description": "Logo Reveal renders on your own computer with HyperFrames. No API key, no cost per video.",
+  "logo": "logo.svg",
+  "site": "glidezo.com/skills/logo-reveal",
+  "image": "screenshot.png",
+  "accent": "#8b7bff",
+  "background": "#0a0a0b"
+}

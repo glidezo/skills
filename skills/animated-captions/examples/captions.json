@@ -1,0 +1,8 @@
+{
+  "video": "talk.mp4",
+  "position": "bottom",
+  "accent": "#facc15",
+  "maxWords": 4,
+  "uppercase": true,
+  "language": "en"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "How long our sample videos took to render",
+  "subtitle": "Seconds to render each 1080p clip on a 4-core computer",
+  "source": "Source: Glidezo, rendered with HyperFrames 0.8.223, 2026-10-31",
+  "type": "bar",
+  "data": [
+    { "label": "Logo reveal (5 s)", "value": 13 },
+    { "label": "Kinetic title (6 s)", "value": 13 },
+    { "label": "Slideshow (20 s)", "value": 78 },
+    { "label": "Launch video (23 s)", "value": 79 }
+  ],
+  "suffix": " s",
+  "highlight": "Logo reveal (5 s)",
+  "accent": "#8b7bff",
+  "background": "#0a0a0b",
+  "seconds": 8,
+  "format": "landscape"
+}

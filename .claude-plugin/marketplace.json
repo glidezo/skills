@@ -1,0 +1,109 @@
+{
+  "name": "glidezo",
+  "description": "Free video and image skills from Glidezo. Each one renders on your own computer with HyperFrames: no API key, no cost per video.",
+  "owner": {
+    "name": "Glidezo",
+    "url": "https://glidezo.com"
+  },
+  "plugins": [
+    {
+      "name": "launch-video",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/launch-video"],
+      "description": "Product launch or promo video (MP4) from a name, features with screenshots and a call to action.",
+      "homepage": "https://glidezo.com/skills/launch-video",
+      "license": "MIT",
+      "category": "video",
+      "keywords": ["video", "launch video", "promo", "hyperframes"]
+    },
+    {
+      "name": "kinetic-type-title",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/kinetic-type-title"],
+      "description": "Kinetic typography title clip (MP4) from one line of text.",
+      "homepage": "https://glidezo.com/skills/kinetic-type-title",
+      "license": "MIT",
+      "category": "video",
+      "keywords": ["video", "kinetic typography", "title", "hyperframes"]
+    },
+    {
+      "name": "animated-captions",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/animated-captions"],
+      "description": "Word-by-word animated captions burned into a talking video, transcribed on your computer.",
+      "homepage": "https://glidezo.com/skills/animated-captions",
+      "license": "MIT",
+      "category": "video",
+      "keywords": ["video", "captions", "subtitles", "hyperframes"]
+    },
+    {
+      "name": "logo-reveal",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/logo-reveal"],
+      "description": "Logo reveal intro or end card (MP4) from a logo file, brand name and tagline.",
+      "homepage": "https://glidezo.com/skills/logo-reveal",
+      "license": "MIT",
+      "category": "video",
+      "keywords": ["video", "logo reveal", "intro", "hyperframes"]
+    },
+    {
+      "name": "data-chart-video",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/data-chart-video"],
+      "description": "Animated bar or line chart video (MP4) from labels and numbers.",
+      "homepage": "https://glidezo.com/skills/data-chart-video",
+      "license": "MIT",
+      "category": "video",
+      "keywords": ["video", "chart", "data", "hyperframes"]
+    },
+    {
+      "name": "device-mockup-promo",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/device-mockup-promo"],
+      "description": "Promo video (MP4) of your app or site in a phone or laptop, from screenshots.",
+      "homepage": "https://glidezo.com/skills/device-mockup-promo",
+      "license": "MIT",
+      "category": "video",
+      "keywords": ["video", "mockup", "app promo", "hyperframes"]
+    },
+    {
+      "name": "real-estate-slideshow-maker",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/real-estate-slideshow-maker"],
+      "description": "Real estate listing slideshow video (MP4) from photos, price, address and agent details.",
+      "homepage": "https://glidezo.com/skills/real-estate-slideshow-maker",
+      "license": "MIT",
+      "category": "video",
+      "keywords": ["video", "real estate", "slideshow", "hyperframes"]
+    },
+    {
+      "name": "og-image",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/og-image"],
+      "description": "Open Graph link preview card (1200x630 PNG) with a title that fits itself.",
+      "homepage": "https://glidezo.com/skills/og-image",
+      "license": "MIT",
+      "category": "image",
+      "keywords": ["image", "og image", "social card", "hyperframes"]
+    },
+    {
+      "name": "youtube-thumbnail",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/youtube-thumbnail"],
+      "description": "YouTube thumbnail (1280x720 PNG, under 2 MB) with a headline, badge and subject cut-out.",
+      "homepage": "https://glidezo.com/skills/youtube-thumbnail",
+      "license": "MIT",
+      "category": "image",
+      "keywords": ["image", "youtube thumbnail", "hyperframes"]
+    }
+  ]
+}

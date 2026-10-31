@@ -1,0 +1,9 @@
+{
+  "logo": "logo.svg",
+  "name": "Glidezo",
+  "tagline": "Video skills for your coding agent",
+  "accent": "#8b7bff",
+  "background": "#0a0a0b",
+  "seconds": 5,
+  "format": "landscape"
+}

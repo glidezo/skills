@@ -1,0 +1,24 @@
+{
+  "format": "landscape",
+  "accent": "#8b7bff",
+  "tagline": "Just listed",
+  "address": "1428 Linden Avenue",
+  "city": "Maple Grove",
+  "price": "$849,000",
+  "beds": 4,
+  "baths": 3,
+  "area": "2,450 sq ft",
+  "agent": {
+    "name": "Alex Morgan",
+    "phone": "(555) 010-2040",
+    "brokerage": "Sample Realty"
+  },
+  "secondsPerPhoto": 3,
+  "photos": [
+    { "file": "photos/01-exterior.jpg" },
+    { "file": "photos/02-living.jpg", "label": "Open-plan kitchen" },
+    { "file": "photos/03-kitchen.jpg", "label": "Guest kitchenette" },
+    { "file": "photos/04-bedroom.jpg", "label": "Main bedroom" },
+    { "file": "photos/05-bathroom.jpg", "label": "Bathroom" }
+  ]
+}
