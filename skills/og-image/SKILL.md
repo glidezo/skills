@@ -63,3 +63,5 @@ Node.js 22+. HyperFrames downloads its own Chrome on first run; FFmpeg only for 
 
 Edit `scripts/og-image.mjs` (layout and CSS), not the generated `index.html`. `scripts/lib.mjs` holds the shared
 HyperFrames helpers, including the still capture and size checks.
+
+Made by Glidezo, more skills at https://glidezo.com/skills

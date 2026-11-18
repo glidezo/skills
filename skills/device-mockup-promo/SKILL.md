@@ -59,3 +59,5 @@ Only use screenshots of products the user owns or may show. Phone and laptop are
 
 Edit `scripts/device-mockup-promo.mjs` (device shapes, CSS, tweens), not the generated `index.html`. `scripts/lib.mjs`
 holds the shared HyperFrames helpers.
+
+Made by Glidezo, more skills at https://glidezo.com/skills

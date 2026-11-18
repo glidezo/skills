@@ -63,3 +63,5 @@ Node.js 22+, FFmpeg on the PATH. HyperFrames downloads its own Chrome on first r
 
 Edit `scripts/data-chart-video.mjs` (timing, CSS, tweens), not the generated `index.html`. `scripts/lib.mjs` holds the
 shared HyperFrames helpers.
+
+Made by Glidezo, more skills at https://glidezo.com/skills

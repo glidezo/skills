@@ -10,10 +10,7 @@
  */
 import { copyFileSync, mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
 import { basename, dirname, extname, join, resolve } from "node:path";
-import { HYPERFRAMES_VERSION, renderArgs, runNpx } from "./lib.mjs";
-
-/** GSAP build the HyperFrames 0.8 scaffold loads. */
-const GSAP_URL = "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js";
+import { HYPERFRAMES_VERSION, gsapScriptTag, renderArgs, runNpx } from "./lib.mjs";
 
 const FORMATS = {
   landscape: { width: 1920, height: 1080 },
@@ -104,6 +101,7 @@ function readListing(path) {
       name: text(agent.name, "agent.name", { required: false, max: 50 }),
       phone: text(agent.phone, "agent.phone", { required: false, max: 30 }),
       brokerage: text(agent.brokerage, "agent.brokerage", { required: false, max: 60 }),
+      website: text(agent.website, "agent.website", { required: false, max: 60 }),
     },
     photos,
   };
@@ -151,7 +149,7 @@ function compositionHtml(listing, photoNames, musicName) {
     )
     .filter(Boolean)
     .join("\n");
-  const agentLines = [listing.agent.name, listing.agent.phone, listing.agent.brokerage].filter(Boolean);
+  const agentLines = [listing.agent.name, listing.agent.phone, listing.agent.brokerage, listing.agent.website].filter(Boolean);
   const tweens = slots
     .map((slot, index) => {
       // Alternate the drift so the camera seems to move around the home, not zoom in on every room.
@@ -175,7 +173,7 @@ function compositionHtml(listing, photoNames, musicName) {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=${width}, height=${height}" />
-    <script src="${GSAP_URL}"></script>
+    ${gsapScriptTag()}
     <style>
       :root {
         --u: ${Math.min(width, height) / 1080}px;

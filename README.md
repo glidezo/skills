@@ -1,5 +1,7 @@
 # Glidezo skills: free video and image skills for coding agents
 
+Made by Glidezo, more skills at https://glidezo.com/skills
+
 Nine free agent skills that make videos and images in code. Your agent (Claude Code, Codex, Cursor, Gemini CLI and
 others) writes an HTML composition and renders it on your computer with [HyperFrames](https://github.com/heygen-com/hyperframes).
 No API key, no cost per video: a 6-second title renders in about 15 seconds on a 4-core computer.
@@ -37,7 +39,14 @@ npx skills add glidezo/skills                        # pick skills and agents fr
 npx skills add glidezo/skills --skill launch-video   # one skill
 ```
 
-**By hand:** copy a folder from `skills/` into your agent's skills folder.
+**By hand:** copy a folder from `skills/` into your agent's skills folder, or download one skill as a zip from the
+[latest release](https://github.com/glidezo/skills/releases/latest) (the folder is at the zip's root):
+
+```bash
+mkdir -p ~/.claude/skills
+curl -L -o kinetic-type-title.zip https://github.com/glidezo/skills/releases/latest/download/kinetic-type-title.zip
+unzip kinetic-type-title.zip -d ~/.claude/skills
+```
 
 | Agent | Personal skills folder | Project skills folder |
 |---|---|---|

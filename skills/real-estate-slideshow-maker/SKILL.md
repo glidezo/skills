@@ -96,3 +96,5 @@ registered on `window.__timelines["main"]`, and nothing random or time-based run
 - Many listing services and local rules ask that virtually staged or edited photos are labelled; this skill does not
   change the photos, but say so if the user's photos were staged.
 - Use music the user owns or has licensed; social apps may mute videos with unlicensed music.
+
+Made by Glidezo, more skills at https://glidezo.com/skills

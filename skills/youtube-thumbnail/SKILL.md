@@ -55,3 +55,5 @@ Only use pictures of people with their permission, and no other brands' logos.
 
 Edit `scripts/youtube-thumbnail.mjs` (layout and CSS), not the generated `index.html`. `scripts/lib.mjs` holds the
 shared HyperFrames helpers, including the still capture and size checks.
+
+Made by Glidezo, more skills at https://glidezo.com/skills

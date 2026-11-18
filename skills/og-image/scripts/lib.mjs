@@ -15,6 +15,17 @@ import { fileURLToPath } from "node:url";
 export const HYPERFRAMES_VERSION = "0.8.223";
 /** GSAP build the HyperFrames 0.8 scaffold loads. */
 export const GSAP_URL = "https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js";
+
+/**
+ * The page's GSAP `<script>`: from the CDN, or, when GLIDEZO_GSAP_FILE names a local copy of the same build, that file
+ * inlined. Glidezo's render server sets it because its renders have no internet; on your machine nothing changes.
+ */
+export function gsapScriptTag() {
+  const file = process.env.GLIDEZO_GSAP_FILE;
+  if (!file) return `<script src="${GSAP_URL}"></script>`;
+  return `<script>${readFileSync(file, "utf8").replace(/<\/script/gi, "<\\/script")}</script>`;
+}
+
 /** Frame rate of every render. */
 export const FPS = 30;
 /** x264 quality: sharp text at a size social apps accept (HyperFrames' default, 16, is about 2x larger). */
@@ -204,7 +215,7 @@ export function compositionHtml({ width, height, duration, css, body, script }) 
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=${width}, height=${height}" />
-    <script src="${GSAP_URL}"></script>
+    ${gsapScriptTag()}
     <style>
       :root { --u: ${Math.min(width, height) / 1080}px; }
       * { margin: 0; padding: 0; box-sizing: border-box; }

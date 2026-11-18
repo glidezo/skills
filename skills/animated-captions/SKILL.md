@@ -61,3 +61,5 @@ Only caption videos the user owns or may use.
 
 Edit `scripts/animated-captions.mjs` (the CSS for `.group p` and the per-word tweens), not the generated
 `index.html`. `scripts/lib.mjs` holds the shared HyperFrames helpers.
+
+Made by Glidezo, more skills at https://glidezo.com/skills

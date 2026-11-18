@@ -50,3 +50,5 @@ into sub-compositions; both are expected for this template.
 
 Edit `scripts/kinetic-type-title.mjs` (the `ENTRANCES` list, the CSS and the tweens), not the generated `index.html`,
 so the change survives the next run. `scripts/lib.mjs` holds the shared HyperFrames helpers.
+
+Made by Glidezo, more skills at https://glidezo.com/skills

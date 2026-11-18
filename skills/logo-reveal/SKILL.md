@@ -47,3 +47,5 @@ Only use logos the user owns or may use.
 
 Edit `scripts/logo-reveal.mjs` (CSS and tweens), not the generated `index.html`. `scripts/lib.mjs` holds the shared
 HyperFrames helpers.
+
+Made by Glidezo, more skills at https://glidezo.com/skills
